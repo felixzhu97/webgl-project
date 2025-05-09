@@ -3,7 +3,7 @@
 
 title 代码图
 
-Component_Boundary(three, "3D查看器") {
+Boundary(three, "3D查看器") {
     Component(loader, "模型加载器", "JavaScript", "加载3D模型")
     Component(renderer, "渲染器", "Three.js", "渲染3D场景")
     Component(controls, "轨道控制器", "Three.js", "处理用户交互")
